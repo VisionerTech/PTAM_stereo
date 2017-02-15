@@ -1,0 +1,10 @@
+﻿Build started 2/14/2017 5:12:20 PM.
+     1>Project "E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\PTAM.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Link:
+         PTAM.vcxproj -> E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\.\exe\PTAM.exe
+     1>Done Building Project "E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\PTAM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

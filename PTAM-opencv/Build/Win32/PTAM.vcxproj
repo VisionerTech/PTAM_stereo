@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A6E40617-4EC6-4644-AEF5-BDA9BA0A9C09}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="Microsoft.Cpp.x64.user.exe_r.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="Microsoft.Cpp.x64.user.exe_d.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.51106.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcvdd.lib;gvars3d.lib;glew32.lib;opengl32.lib;1394camerad.lib;blas_win32.lib;lapack_win32.lib;pthreadVCE2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcvd.lib;gvars3.lib;glew32.lib;opengl32.lib;1394camera.lib;blas_win32.lib;lapack_win32.lib;pthreadVCE2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\openCV2_4_11\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <Optimization>Full</Optimization>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcvd.lib;gvars3.lib;glew32.lib;freeglut.lib;opengl32.lib;blas_win64_MT.lib;lapack_win64_MT.lib;pthreadVC2.lib;opencv_calib3d2411.lib;opencv_core2411.lib;opencv_features2d2411.lib;opencv_flann2411.lib;opencv_highgui2411.lib;opencv_imgproc2411.lib;opencv_ml2411.lib;opencv_objdetect2411.lib;opencv_photo2411.lib;opencv_stitching2411.lib;opencv_superres2411.lib;opencv_ts2411.lib;opencv_video2411.lib;opencv_videostab2411.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\openCV2_4_11\build\x64\vc11\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\3rdparty.old\MMD\MotionPlayer.h" />
+    <ClInclude Include="..\..\3rdparty.old\MMD\PMDBone.h" />
+    <ClInclude Include="..\..\3rdparty.old\MMD\PMDFace.h" />
+    <ClInclude Include="..\..\3rdparty.old\MMD\PMDIK.h" />
+    <ClInclude Include="..\..\3rdparty.old\MMD\PMDModel.h" />
+    <ClInclude Include="..\..\3rdparty.old\MMD\PMDTypes.h" />
+    <ClInclude Include="..\..\3rdparty.old\MMD\TextureList.h" />
+    <ClInclude Include="..\..\3rdparty.old\MMD\VecMatQuat.h" />
+    <ClInclude Include="..\..\3rdparty.old\MMD\VMDBezier.h" />
+    <ClInclude Include="..\..\3rdparty.old\MMD\VMDMotion.h" />
+    <ClInclude Include="..\..\3rdparty.old\MMD\VMDTypes.h" />
+    <ClInclude Include="..\..\ARDriver.h" />
+    <ClInclude Include="..\..\ATANCamera.h" />
+    <ClInclude Include="..\..\cameraparameters.h" />
+    <ClInclude Include="..\..\definition.h" />
+    <ClInclude Include="..\..\EyeGame.h" />
+    <ClInclude Include="..\..\GLWindow2.h" />
+    <ClInclude Include="..\..\GLWindowMenu.h" />
+    <ClInclude Include="..\..\HomographyInit.h" />
+    <ClInclude Include="..\..\KeyFrame.h" />
+    <ClInclude Include="..\..\LevelHelpers.h" />
+    <ClInclude Include="..\..\Map.h" />
+    <ClInclude Include="..\..\MapMaker.h" />
+    <ClInclude Include="..\..\MapPoint.h" />
+    <ClInclude Include="..\..\MapViewer.h" />
+    <ClInclude Include="..\..\MEstimator.h" />
+    <ClInclude Include="..\..\miku.h" />
+    <ClInclude Include="..\..\MiniPatch.h" />
+    <ClInclude Include="..\..\OpenGL.h" />
+    <ClInclude Include="..\..\PatchFinder.h" />
+    <ClInclude Include="..\..\PTAM_AR_dll.h" />
+    <ClInclude Include="..\..\Relocaliser.h" />
+    <ClInclude Include="..\..\ShiTomasi.h" />
+    <ClInclude Include="..\..\SmallBlurryImage.h" />
+    <ClInclude Include="..\..\SmallMatrixOpts.h" />
+    <ClInclude Include="..\..\System.h" />
+    <ClInclude Include="..\..\Tracker.h" />
+    <ClInclude Include="..\..\TrackerData.h" />
+    <ClInclude Include="..\..\VideoSource.h" />
+    <ClInclude Include="LapackCholesky.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\3rdparty.old\MMD\MotionPlayer.cpp" />
+    <ClCompile Include="..\..\3rdparty.old\MMD\PMDBone.cpp" />
+    <ClCompile Include="..\..\3rdparty.old\MMD\PMDFace.cpp" />
+    <ClCompile Include="..\..\3rdparty.old\MMD\PMDIK.cpp" />
+    <ClCompile Include="..\..\3rdparty.old\MMD\PMDModel.cpp" />
+    <ClCompile Include="..\..\3rdparty.old\MMD\TextureList.cpp" />
+    <ClCompile Include="..\..\3rdparty.old\MMD\VecMatQuat.cpp" />
+    <ClCompile Include="..\..\3rdparty.old\MMD\VMDBezier.cpp" />
+    <ClCompile Include="..\..\3rdparty.old\MMD\VMDMotion.cpp" />
+    <ClCompile Include="..\..\ARDriver.cc" />
+    <ClCompile Include="..\..\ATANCamera.cc" />
+    <ClCompile Include="..\..\Bundle.cc" />
+    <ClCompile Include="..\..\cameraparameters.cpp" />
+    <ClCompile Include="..\..\EyeGame.cc" />
+    <ClCompile Include="..\..\GLWindow2.cc" />
+    <ClCompile Include="..\..\GLWindowMenu.cc" />
+    <ClCompile Include="..\..\HomographyInit.cc" />
+    <ClCompile Include="..\..\KeyFrame.cc" />
+    <ClCompile Include="..\..\main.cc" />
+    <ClCompile Include="..\..\Map.cc" />
+    <ClCompile Include="..\..\MapMaker.cc" />
+    <ClCompile Include="..\..\MapPoint.cc" />
+    <ClCompile Include="..\..\MapViewer.cc" />
+    <ClCompile Include="..\..\miku.cc" />
+    <ClCompile Include="..\..\MiniPatch.cc" />
+    <ClCompile Include="..\..\PatchFinder.cc" />
+    <ClCompile Include="..\..\PTAM_AR_dll.cc" />
+    <ClCompile Include="..\..\Relocaliser.cc" />
+    <ClCompile Include="..\..\ShiTomasi.cc" />
+    <ClCompile Include="..\..\SmallBlurryImage.cc" />
+    <ClCompile Include="..\..\System.cc" />
+    <ClCompile Include="..\..\Tracker.cc" />
+    <ClCompile Include="..\..\VideoSource_Linux_OpenCV.cc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

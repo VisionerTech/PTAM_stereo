@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MMD">
+      <UniqueIdentifier>{ab6ab6c7-0ba6-4728-8943-aca258006b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MMD">
+      <UniqueIdentifier>{81a6f855-0cd8-4ac1-b237-7d259b94ce4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LapackCholesky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ARDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ATANCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GLWindow2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GLWindowMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HomographyInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KeyFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LevelHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MapMaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MapPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MapViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MEstimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MiniPatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OpenGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PatchFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Relocaliser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ShiTomasi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SmallBlurryImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SmallMatrixOpts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TrackerData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\VideoSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cameraparameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\definition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PTAM_AR_dll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\PMDFace.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\PMDIK.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\PMDModel.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\PMDTypes.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\TextureList.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\VecMatQuat.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\VMDBezier.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\VMDMotion.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\VMDTypes.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\MotionPlayer.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty.old\MMD\PMDBone.h">
+      <Filter>Header Files\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\miku.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EyeGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ARDriver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ATANCamera.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Bundle.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GLWindow2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GLWindowMenu.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HomographyInit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\KeyFrame.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Map.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MapMaker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MapPoint.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MapViewer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MiniPatch.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PatchFinder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Relocaliser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ShiTomasi.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SmallBlurryImage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\System.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Tracker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\VideoSource_Linux_OpenCV.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cameraparameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PTAM_AR_dll.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty.old\MMD\PMDIK.cpp">
+      <Filter>Source Files\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty.old\MMD\PMDModel.cpp">
+      <Filter>Source Files\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty.old\MMD\TextureList.cpp">
+      <Filter>Source Files\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty.old\MMD\VecMatQuat.cpp">
+      <Filter>Source Files\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty.old\MMD\VMDBezier.cpp">
+      <Filter>Source Files\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty.old\MMD\VMDMotion.cpp">
+      <Filter>Source Files\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty.old\MMD\MotionPlayer.cpp">
+      <Filter>Source Files\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty.old\MMD\PMDBone.cpp">
+      <Filter>Source Files\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty.old\MMD\PMDFace.cpp">
+      <Filter>Source Files\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\miku.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\EyeGame.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,590 @@
+﻿Build started 2/14/2017 4:28:54 PM.
+     1>Project "E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\PTAM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IE:\opencv2_4_11\my_build_vs2012_x64\install\include /IE:\opencv2411\opencv\mybuild_VC11_64\install\include /I..\..\ /I..\..\3rdparty.old\headers /I"..\..\3rdparty.old\glew-1.12.0\include" /I..\..\3rdparty.old\gvars3 /I..\..\3rdparty.old\libcvd /I..\..\3rdparty.old\ /I"..\..\3rdparty.old\libcvd\Pre-built.2\include" /I..\..\3rdparty.old\freeglut\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\3rdparty.old\MMD\MotionPlayer.cpp ..\..\3rdparty.old\MMD\PMDBone.cpp ..\..\3rdparty.old\MMD\PMDFace.cpp ..\..\3rdparty.old\MMD\PMDIK.cpp ..\..\3rdparty.old\MMD\PMDModel.cpp ..\..\3rdparty.old\MMD\TextureList.cpp ..\..\3rdparty.old\MMD\VecMatQuat.cpp ..\..\3rdparty.old\MMD\VMDBezier.cpp ..\..\3rdparty.old\MMD\VMDMotion.cpp ..\..\ARDriver.cc ..\..\ATANCamera.cc ..\..\Bundle.cc ..\..\cameraparameters.cpp ..\..\EyeGame.cc ..\..\GLWindow2.cc ..\..\GLWindowMenu.cc ..\..\HomographyInit.cc ..\..\KeyFrame.cc ..\..\main.cc ..\..\Map.cc ..\..\MapMaker.cc ..\..\MapPoint.cc ..\..\MapViewer.cc ..\..\miku.cc ..\..\MiniPatch.cc ..\..\PatchFinder.cc ..\..\PTAM_AR_dll.cc ..\..\Relocaliser.cc ..\..\ShiTomasi.cc ..\..\SmallBlurryImage.cc ..\..\System.cc ..\..\Tracker.cc ..\..\VideoSource_Linux_OpenCV.cc
+         MotionPlayer.cpp
+         PMDBone.cpp
+     1>..\..\3rdparty.old\MMD\PMDBone.cpp(31): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+         PMDFace.cpp
+     1>..\..\3rdparty.old\MMD\PMDFace.cpp(35): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+         PMDIK.cpp
+         PMDModel.cpp
+     1>..\..\3rdparty.old\MMD\PMDModel.cpp(54): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\..\3rdparty.old\MMD\PMDModel.cpp(97): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\3rdparty.old\MMD\PMDModel.cpp(98): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>..\..\3rdparty.old\MMD\PMDModel.cpp(102): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>..\..\3rdparty.old\MMD\PMDModel.cpp(180): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(115) : see declaration of 'strcat'
+     1>..\..\3rdparty.old\MMD\PMDModel.cpp(317): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         TextureList.cpp
+     1>..\..\3rdparty.old\MMD\TextureList.cpp(60): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(110) : see declaration of 'strcpy'
+     1>..\..\3rdparty.old\MMD\TextureList.cpp(111): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\3rdparty.old\MMD\TextureList.cpp(112): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>..\..\3rdparty.old\MMD\TextureList.cpp(113): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>..\..\3rdparty.old\MMD\TextureList.cpp(116): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\..\3rdparty.old\MMD\TextureList.cpp(133): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\3rdparty.old\MMD\TextureList.cpp(623): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         VecMatQuat.cpp
+         VMDBezier.cpp
+         VMDMotion.cpp
+     1>..\..\3rdparty.old\MMD\VMDMotion.cpp(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\..\3rdparty.old\MMD\VMDMotion.cpp(123): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+     1>..\..\3rdparty.old\MMD\VMDMotion.cpp(215): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : see declaration of 'strncpy'
+         ARDriver.cc
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\miku.h(37) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>..\..\ARDriver.cc(519): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         ATANCamera.cc
+         Bundle.cc
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Bundle.h(41) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>..\..\Bundle.cc(48): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Bundle.cc(68): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\Bundle.cc(434): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+                 ..\..\Bundle.cc(138) : see reference to function template instantiation 'bool Bundle::Do_LM_Step<Cauchy>(bool *)' being compiled
+         cameraparameters.cpp
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(70): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(85): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(99): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(103): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(120): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(132): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(142): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(143): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(47): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(80): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(123): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(146): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\cameraparameters.cpp(147): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\cameraparameters.cpp(153): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(182): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(202): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(239): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(290): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(341): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(411): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\..\cameraparameters.cpp(492): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+         EyeGame.cc
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\EyeGame.h(35) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>..\..\EyeGame.cc(142): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(143): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(145): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(146): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(166): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(167): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(168): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(169): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(171): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(172): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(173): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(174): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(187): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(188): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(190): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\EyeGame.cc(191): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(326) : see reference to function template instantiation '_OutIt std::copy<const A*,B*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=sum_type *,
+                     A=CVD::byte,
+                     B=sum_type,
+                     _InIt=const CVD::byte *
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(325) : while compiling class template member function 'const sum_type *CVD::GetPixelRowTyped<A,B>::get(const A *,int,B *)'
+                 with
+                 [
+                     A=CVD::byte,
+                     B=sum_type
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(338) : see reference to function template instantiation 'const sum_type *CVD::GetPixelRowTyped<A,B>::get(const A *,int,B *)' being compiled
+                 with
+                 [
+                     A=CVD::byte,
+                     B=sum_type
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(338) : see reference to class template instantiation 'CVD::GetPixelRowTyped<A,B>' being compiled
+                 with
+                 [
+                     A=CVD::byte,
+                     B=sum_type
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(443) : see reference to function template instantiation 'const B *CVD::getPixelRowTyped<T,sum_type>(const A *,int,B *)' being compiled
+                 with
+                 [
+                     B=sum_type,
+                     T=CVD::byte,
+                     A=CVD::byte
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(408) : see reference to function template instantiation 'void CVD::convolveGaussian<T>(const CVD::BasicImage<T> &,CVD::BasicImage<T> &,double,double)' being compiled
+                 with
+                 [
+                     T=CVD::byte
+                 ]
+                 ..\..\EyeGame.cc(255) : see reference to function template instantiation 'void CVD::convolveGaussian<T>(CVD::BasicImage<T> &,double,double)' being compiled
+                 with
+                 [
+                     T=CVD::byte
+                 ]
+         GLWindow2.cc
+     1>..\..\GLWindow2.cc(133): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\GLWindow2.cc(162): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>..\..\GLWindow2.cc(194): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         GLWindowMenu.cc
+     1>..\..\GLWindowMenu.cc(179): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         HomographyInit.cc
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\HomographyInit.h(39) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>..\..\HomographyInit.cc(65): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         KeyFrame.cc
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+         main.cc
+         Map.cc
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(22): warning C4099: 'KeyFrame' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(22) : see declaration of 'KeyFrame'
+     1>..\..\Map.cc(22): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         MapMaker.cc
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(21) : see declaration of 'MapPoint'
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapMaker.h(35): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapMaker.h(58): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(22): warning C4099: 'KeyFrame' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(76) : see declaration of 'KeyFrame'
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(24): warning C4099: 'MapMakerData' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapMaker.h(31) : see declaration of 'MapMakerData'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>..\..\MapMaker.cc(668): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\MapMaker.cc(1051): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         MapPoint.cc
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(27) : see declaration of 'MapPoint'
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(76): warning C4099: 'KeyFrame' : type name first seen using 'class' now seen using 'struct'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(22) : see declaration of 'KeyFrame'
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+         MapViewer.cc
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapViewer.h(21): warning C4099: 'Map' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(25) : see declaration of 'Map'
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapViewer.h(41) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(22): warning C4099: 'KeyFrame' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(22) : see declaration of 'KeyFrame'
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(27) : see declaration of 'MapPoint'
+     1>..\..\MapViewer.cc(65): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>..\..\MapViewer.cc(74): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         miku.cc
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\miku.h(37) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>..\..\miku.cc(86): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>..\..\miku.cc(205): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(206): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(208): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(209): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(229): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(230): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(231): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(232): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(234): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(235): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(236): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(237): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(250): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(251): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(253): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\..\miku.cc(254): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(326) : see reference to function template instantiation '_OutIt std::copy<const A*,B*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=sum_type *,
+                     A=CVD::byte,
+                     B=sum_type,
+                     _InIt=const CVD::byte *
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(325) : while compiling class template member function 'const sum_type *CVD::GetPixelRowTyped<A,B>::get(const A *,int,B *)'
+                 with
+                 [
+                     A=CVD::byte,
+                     B=sum_type
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(338) : see reference to function template instantiation 'const sum_type *CVD::GetPixelRowTyped<A,B>::get(const A *,int,B *)' being compiled
+                 with
+                 [
+                     A=CVD::byte,
+                     B=sum_type
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(338) : see reference to class template instantiation 'CVD::GetPixelRowTyped<A,B>' being compiled
+                 with
+                 [
+                     A=CVD::byte,
+                     B=sum_type
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(443) : see reference to function template instantiation 'const B *CVD::getPixelRowTyped<T,sum_type>(const A *,int,B *)' being compiled
+                 with
+                 [
+                     B=sum_type,
+                     T=CVD::byte,
+                     A=CVD::byte
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/convolution.h(408) : see reference to function template instantiation 'void CVD::convolveGaussian<T>(const CVD::BasicImage<T> &,CVD::BasicImage<T> &,double,double)' being compiled
+                 with
+                 [
+                     T=CVD::byte
+                 ]
+                 ..\..\miku.cc(323) : see reference to function template instantiation 'void CVD::convolveGaussian<T>(CVD::BasicImage<T> &,double,double)' being compiled
+                 with
+                 [
+                     T=CVD::byte
+                 ]
+         MiniPatch.cc
+         PatchFinder.cc
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(27) : see declaration of 'MapPoint'
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(76): warning C4099: 'KeyFrame' : type name first seen using 'class' now seen using 'struct'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(22) : see declaration of 'KeyFrame'
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>..\..\PatchFinder.cc(265): warning C4244: '=' : conversion from 'TooN::DefaultPrecision' to 'float', possible loss of data
+     1>..\..\PatchFinder.cc(266): warning C4244: '=' : conversion from 'TooN::DefaultPrecision' to 'float', possible loss of data
+     1>..\..\PatchFinder.cc(329): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\PatchFinder.cc(330): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\PatchFinder.cc(331): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\PatchFinder.cc(332): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\PatchFinder.cc(335): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned long', possible loss of data
+         PTAM_AR_dll.cc
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(25): warning C4099: 'Map' : type name first seen using 'class' now seen using 'struct'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\PTAM_AR_dll.h(18) : see declaration of 'Map'
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(21) : see declaration of 'MapPoint'
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapMaker.h(35): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapMaker.h(58): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so2.h(51): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se2.h(136) : see reference to class template instantiation 'TooN::SO2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Relocaliser.h(33) : see reference to class template instantiation 'TooN::SE2<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so2.h(52): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+         Relocaliser.cc
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(21): warning C4099: 'MapPoint' : type name first seen using 'class' now seen using 'struct'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(29) : see declaration of 'MapPoint'
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so2.h(51): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se2.h(136) : see reference to class template instantiation 'TooN::SO2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Relocaliser.h(33) : see reference to class template instantiation 'TooN::SE2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so2.h(52): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+         ShiTomasi.cc
+         SmallBlurryImage.cc
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so2.h(51): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se2.h(136) : see reference to class template instantiation 'TooN::SO2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(201) : see reference to class template instantiation 'TooN::SE2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 ..\..\SmallBlurryImage.cc(99) : see reference to class template instantiation 'std::pair<_Ty1,_Ty2>' being compiled
+                 with
+                 [
+                     _Ty1=TooN::SE2<double>,
+                     _Ty2=double
+                 ]
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so2.h(52): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+         System.cc
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(25): warning C4099: 'Map' : type name first seen using 'class' now seen using 'struct'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\PTAM_AR_dll.h(18) : see declaration of 'Map'
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(21) : see declaration of 'MapPoint'
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapMaker.h(35): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapMaker.h(58): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so2.h(51): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se2.h(136) : see reference to class template instantiation 'TooN::SO2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Relocaliser.h(33) : see reference to class template instantiation 'TooN::SE2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so2.h(52): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapViewer.h(21): warning C4099: 'Map' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(25) : see declaration of 'Map'
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(70): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(85): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(99): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(103): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(120): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(132): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(142): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\cameraparameters.h(143): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+         Tracker.cc
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Map.h(21) : see declaration of 'MapPoint'
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapMaker.h(35): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapMaker.h(58): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so2.h(51): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/se2.h(136) : see reference to class template instantiation 'TooN::SO2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Relocaliser.h(33) : see reference to class template instantiation 'TooN::SE2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+     1>E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\TooN/so2.h(52): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(22): warning C4099: 'KeyFrame' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\KeyFrame.h(76) : see declaration of 'KeyFrame'
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapPoint.h(24): warning C4099: 'MapMakerData' : type name first seen using 'struct' now seen using 'class'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\MapMaker.h(31) : see declaration of 'MapMakerData'
+     1>e:\upload_20170210\ptam_stereo-master\ptam-opencv\TrackerData.h(17): warning C4099: 'TrackerData' : type name first seen using 'class' now seen using 'struct'
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\Tracker.h(35) : see declaration of 'TrackerData'
+     1>..\..\Tracker.cc(106): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\Tracker.cc(221): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\Tracker.cc(453): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>..\..\Tracker.cc(455): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>..\..\Tracker.cc(805): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\..\Tracker.cc(876): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/image.h(689) : see reference to function template instantiation '_OutIt std::copy<const TooN::Vector<Size>*,TooN::Vector<Size>*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=TooN::Vector<2> *,
+                     Size=2,
+                     _InIt=const TooN::Vector<2> *
+                 ]
+                 E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\3rdparty.old\libcvd\cvd/image.h(687) : while compiling class template member function 'void CVD::Image<T>::copy_from(const CVD::BasicImage<T> &)'
+                 with
+                 [
+                     T=TooN::Vector<2>
+                 ]
+                 ..\..\Tracker.cc(498) : see reference to function template instantiation 'void CVD::Image<T>::copy_from(const CVD::BasicImage<T> &)' being compiled
+                 with
+                 [
+                     T=TooN::Vector<2>
+                 ]
+                 e:\upload_20170210\ptam_stereo-master\ptam-opencv\SmallBlurryImage.h(30) : see reference to class template instantiation 'CVD::Image<T>' being compiled
+                 with
+                 [
+                     T=TooN::Vector<2>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xutility(2157) : see declaration of 'std::_Copy_impl'
+         VideoSource_Linux_OpenCV.cc
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\PTAM.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\opencv2_4_11\my_build_vs2012_x64\install\x64\vc11\lib /LIBPATH:E:\opencv2411\opencv\mybuild_VC11_64\install\x64\vc11\lib /LIBPATH:..\..\3rdparty.old\LAPACK_Debug_x64 /LIBPATH:"..\..\3rdparty.old\glew-1.12.0\lib\Release\x64" /LIBPATH:..\..\3rdparty.old\gvars3\lib /LIBPATH:..\..\3rdparty.old\libcvd\lib /LIBPATH:"..\..\3rdparty.old\libcvd\Pre-built.2\lib\x64" /LIBPATH:..\..\3rdparty.old\freeglut\lib\x64 opencv_calib3d2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_ml2411d.lib opencv_objdetect2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib libcvdd.lib gvars3d.lib glew32.lib opengl32.lib blas_win64_MTd.lib lapack_win64_MTd.lib pthreadVC2.lib opencv_calib3d2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_ml2411d.lib opencv_objdetect2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\PTAM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\PTAM.lib" /MACHINE:X64 x64\Debug\MotionPlayer.obj
+         x64\Debug\PMDBone.obj
+         x64\Debug\PMDFace.obj
+         x64\Debug\PMDIK.obj
+         x64\Debug\PMDModel.obj
+         x64\Debug\TextureList.obj
+         x64\Debug\VecMatQuat.obj
+         x64\Debug\VMDBezier.obj
+         x64\Debug\VMDMotion.obj
+         x64\Debug\ARDriver.obj
+         x64\Debug\ATANCamera.obj
+         x64\Debug\Bundle.obj
+         x64\Debug\cameraparameters.obj
+         x64\Debug\EyeGame.obj
+         x64\Debug\GLWindow2.obj
+         x64\Debug\GLWindowMenu.obj
+         x64\Debug\HomographyInit.obj
+         x64\Debug\KeyFrame.obj
+         x64\Debug\main.obj
+         x64\Debug\Map.obj
+         x64\Debug\MapMaker.obj
+         x64\Debug\MapPoint.obj
+         x64\Debug\MapViewer.obj
+         x64\Debug\miku.obj
+         x64\Debug\MiniPatch.obj
+         x64\Debug\PatchFinder.obj
+         x64\Debug\PTAM_AR_dll.obj
+         x64\Debug\Relocaliser.obj
+         x64\Debug\ShiTomasi.obj
+         x64\Debug\SmallBlurryImage.obj
+         x64\Debug\System.obj
+         x64\Debug\Tracker.obj
+         x64\Debug\VideoSource_Linux_OpenCV.obj
+     1>libcvdd.lib(convolution.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(cvd_timer.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(fast_corner.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(faster_corner_10.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(gltext.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(half_sample.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(nonmax_suppression.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(thread.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(fast_10_detect.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(convolve_gaussian.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(utility_float.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(glwindow.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvdd.lib(win32.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3d.lib(GStringUtil.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3d.lib(GUI.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3d.lib(GUI_impl_noreadline.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3d.lib(GUI_non_readline.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3d.lib(gvars2.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3d.lib(gvars3.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3d.lib(inst.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3d.lib(serialize.obj) : warning LNK4204: 'E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         PTAM.vcxproj -> E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\x64\Debug\PTAM.exe
+     1>Done Building Project "E:\upload_20170210\PTAM_stereo-master\PTAM-opencv\Build\Win32\PTAM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:26.37
