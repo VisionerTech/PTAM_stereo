@@ -50,15 +50,15 @@ http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_O
 
 5. put your camera towards a plane scene, and press "space" button
 
-![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/calib_snap1.png "space")
+![alt text](https://github.com/VisionerTech/PTAM_stereo/blob/master/readme_images/space.png "space")
 
 6. there will be gridding in the window, and feature points are also shown. If these don't appear, press "Reset" button and change the camera towards a more planar scene. Then press "Spacebar" button.
 
-![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/calib_snap2.png "space2")
+![alt text](https://github.com/VisionerTech/PTAM_stereo/blob/master/readme_images/space2.png "space2")
 
 7. Press "View Map Off", then the point cloud and pose track are available to see.
 
-![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/rectified.png "map")
+![alt text](https://github.com/VisionerTech/PTAM_stereo/blob/master/readme_images/map.png "map")
 
 8.  Press "Draw AR Off", then a miku will be shown the screen. Maxmize this window, and press "Shift+Ctrl+Right", it will be shown on the headset screen.
-![alt text](https://github.com/VisionerTech/stereo_calib_executable/blob/master/readme_image/saved_files.png "miku")
+![alt text](https://github.com/VisionerTech/PTAM_stereo/blob/master/readme_images/miku.jpg "miku")
