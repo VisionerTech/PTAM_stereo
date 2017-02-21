@@ -23,6 +23,7 @@ http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_O
 
 1. Put camera parameters got from stereo_calib or stereo_calib_executable to "PTAM_stereo-master/PTAM-opencv/Build/Win32/exe"
 2. Change "PTAM_stereo-master/PTAM-opencv/Build/Win32/exe/Camera.cfg" based on left eye camera parameters, for example, the data in "save_param/intrinsics.yml" is like below:
+
         image_width: 1080
         image_height: 1080
         M1: !!opencv-matrix
