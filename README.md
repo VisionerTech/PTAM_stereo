@@ -23,17 +23,20 @@ http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_O
 
 1.  Put camera parameters got from stereo_calib or stereo_calib_executable to "PTAM_stereo-master/PTAM-opencv/Build/Win32/exe"
 2.  Change "PTAM_stereo-master/PTAM-opencv/Build/Win32/exe/Camera.cfg" based on left eye camera parameters, for example, the data in "save_param/intrinsics.yml" is like below:
-```        image_width: 1080
+```   
+        image_width: 1080
         image_height: 1080
         M1: !!opencv-matrix
          rows: 3
          cols: 3
          dt: d
          data: [ 1.1101959818598448e+003, 0., 6.6146645449411790e+002, 0.,
-             1.1007281480206175e+003, 6.0699701717373546e+002, 0., 0., 1. ]```
- M1 is the intrinsic parameter of left camera(https://en.wikipedia.org/wiki/Camera_resectioning),so the parameters in Camera.cfg should be like:
+             1.1007281480206175e+003, 6.0699701717373546e+002, 0., 0., 1. ]
 ```
- Camera.Parameters=[ 111.019/1080 110.072/1080 661.466/1080 606.997/1080 0 ]```
+M1 is the intrinsic parameter of left camera(https://en.wikipedia.org/wiki/Camera_resectioning),so the parameters in Camera.cfg should be like:
+```
+Camera.Parameters=[ 111.019/1080 110.072/1080 661.466/1080 606.997/1080 0 ]
+```
 3.  Build "/PTAM-opencv/Build/Win32/PTAM.sln" release version
 4.  Run PTAM.exe in "PTAM_stereo-master\PTAM-opencv\Build\Win32\exe" with command window like:
 ```
