@@ -35,7 +35,7 @@ http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_O
 
       M1 is the intrinsic parameter of left camera(https://en.wikipedia.org/wiki/Camera_resectioning),so the parameters in Camera.cfg should be like:
 
-       Camera.Parameters=[ 111.019/1080 110.072/1080 661.466/1080 606.997/1080 0 ]
+        Camera.Parameters=[ 111.019/1080 110.072/1080 661.466/1080 606.997/1080 0 ]
 3. Build "/PTAM-opencv/Build/Win32/PTAM.sln" release version
 4. Run PTAM.exe in "PTAM_stereo-master\PTAM-opencv\Build\Win32\exe" with command window like:
 
