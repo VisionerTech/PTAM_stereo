@@ -35,15 +35,15 @@ http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_O
 
       M1 is the intrinsic parameter of left camera(https://en.wikipedia.org/wiki/Camera_resectioning),so the parameters in Camera.cfg should be like:
 
-      Camera.Parameters=[ 111.019/1080 110.072/1080 661.466/1080 606.997/1080 0 ]
+       Camera.Parameters=[ 111.019/1080 110.072/1080 661.466/1080 606.997/1080 0 ]
 3. Build "/PTAM-opencv/Build/Win32/PTAM.sln" release version
 4. Run PTAM.exe in "PTAM_stereo-master\PTAM-opencv\Build\Win32\exe" with command window like:
 
-    PTAM.exe 0 1
+        PTAM.exe 0 1
 
     Put your hands in front of the left camera, check whether the video has consistent changes. If not, the camera index is swop because of different system. So camera index order should be changed as:
 
-    PTAM.exe 1 0
+        PTAM.exe 1 0
 5. Put your camera towards a plane scene, and press "space" button
 ![alt text](https://github.com/VisionerTech/PTAM_stereo/blob/master/readme_images/space.png "space")
 6. There will be gridding in the window, and feature points are also shown. If these don't appear, press "Reset" button and change the camera towards a more planar scene. Then press "Spacebar" button.
